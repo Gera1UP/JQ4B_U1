@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w ./SCSS/estilos.scss ./CSS/estilos.css",
+    "pugcmd": "pug -w ./Pug/Index.pug -o ./html -P",
+    "pug": "pug -w ./src/pug/Index.pug -o ./src/html -P"
+  },
+  "author": "Gera",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejercicio-sass": "file:"
+  }
+}

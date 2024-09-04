@@ -1,0 +1,11 @@
+//id -> #  "unico"
+//clase -> . "Afecta a la clase completa"
+//etiqueta -> h1 "todo dentro de h1"
+
+.div1{
+    @include customdiv(50px, 75px, red, blue);
+}
+
+.div2{
+    @include customdiv(150px, 175px, black, orange);
+}

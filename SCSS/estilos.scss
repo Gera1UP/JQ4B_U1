@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+@import "divs";
+@import "nesting";
+
+h1{
+    color: $rojo;
+    border: $borde;
+}
+
+h2 {
+    color: $azul;
+    border: $borde2;
+}
+
+body{
+    @if $sexo == "hombre" {background-color: white;}
+    @else {background-color: pink;}
+}
